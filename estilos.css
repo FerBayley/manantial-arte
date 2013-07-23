@@ -1,20 +1,35 @@
 body {
 	background-color: rgb(0,199,196);
-	color: #EEE;
+	color: #222;
 	font-family: Helvetica, Arial, Verdana;
 	font-size: 16px;
 }
+footer {
+	color: #999;
+	font-family: Helvetica, Verdana, Arial;
+	font-size: 0.9em;
+	text-align: center;
+}
 header {
+	background-image: url("img/head.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
 	height: 378px;
 	margin: 0 auto;
-	padding-bottom: 20px;
-	padding-top: 130px;
+	padding-bottom: -20px;
+	padding-top: 200px;
 	width: 462px;
+}
+header p {
+	height: 300px;
+	padding: 50px;
+	width: 75%;
 }
 nav {
 	height: 46px;
 	margin: 0 auto;
 	margin-bottom: -15px;
+	margin-top: -30px;
 	width: 238px;
 }
 #redes {
